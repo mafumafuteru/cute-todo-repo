@@ -1,0 +1,58 @@
+#auth-text {
+  margin-top: 100px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.auth-form {
+  text-align: center;
+}
+
+.auth-form input {
+  border: none;
+  padding: 15px 190px 15px 20px;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #E1849F;
+}
+
+.auth-form input:focus {
+  outline: none;
+}
+
+.auth-form .auth-button {
+  padding: 15px 50px 15px 50px;
+  background-color: #E1849F;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 250px;
+}
+
+::-webkit-input-placeholder {
+  color: #E1849F;
+  font-family: Malayalam MN !important;
+  font-weight: 500;
+}
+
+:-ms-input-placeholder {
+  color: #E1849F;
+  font-family: Malayalam MN !important;
+  font-weight: 500;
+}
+
+::-ms-input-placeholder {
+  color: #E1849F;
+  font-family: Malayalam MN !important;
+  font-weight: 500;
+}
+
+::placeholder {
+  color: #E1849F;
+  font-family: Malayalam MN !important;
+  font-weight: 500;
+}
+/*# sourceMappingURL=auth.css.map */

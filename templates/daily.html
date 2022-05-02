@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block head %}
+{% endblock head %}
+
+{% block body %}
+<div class="daily">
+    <div class="daily-box">
+        <h1>Things you have done today:</h1>
+        {% for task in tasks %}
+        <p>{{ task.content }}</p>
+        {% endfor %}
+    </div>
+    {% if not tasks %}
+    <p>
+        Have a good one! <br />
+        Are you sure you want to quit now?
+    </p>
+    {% else %}
+    <p>
+        You've been so productive today! So proud of you!<br />
+        Are you sure you want to quit yet?
+    </p>
+    {% endif %}
+</div>
+
+{% endblock body %}

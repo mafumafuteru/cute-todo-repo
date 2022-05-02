@@ -1,0 +1,206 @@
+.slider-labels {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #E1849F;
+  font-size: 20px;
+  margin-left: 85px;
+}
+
+textarea {
+  border: none;
+  width: 380px;
+  height: 70px;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #E1849F;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.task-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.task-center div {
+  color: #E1849F !important;
+}
+
+.task-form .input-label {
+  float: left;
+  margin-right: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#task-view .title-text {
+  margin-top: 150px;
+}
+
+#task-view img {
+  margin-right: 20px;
+}
+
+#task-view #task-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #E1849F;
+  font-size: 30px;
+}
+
+#task-view #task-text span {
+  margin-left: 20px;
+}
+
+#task-view #task-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 500px;
+  margin: 0 auto;
+}
+
+#task-view button {
+  padding: 15px 40px 15px 40px;
+}
+
+.done-body-color {
+  background-color: #F4C79B;
+  -webkit-transition: background-color 300ms ease-in;
+  transition: background-color 300ms ease-in;
+}
+
+.green-text {
+  color: #90BC1B !important;
+  -webkit-transition: color 1000ms linear;
+  transition: color 1000ms linear;
+}
+
+.green-button {
+  color: white !important;
+  background-color: #90BC1B !important;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.green-button {
+  color: white !important;
+  background-color: #90BC1B !important;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.tasks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tasks p {
+  color: #E1849F !important;
+  font-size: 20px;
+  margin: 0;
+  min-width: 400px;
+}
+
+.tasks a {
+  width: 20px;
+  height: 20px;
+  margin-left: 40px;
+}
+
+.tasks a img {
+  width: 40px;
+}
+
+.daily-box {
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #F4C79B;
+  border-radius: 20px;
+}
+
+.daily-box h1 {
+  color: #F9891B;
+  text-align: center;
+  font-weight: 400;
+}
+
+.daily-box p {
+  text-align: start !important;
+  font-size: 30px;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.daily p {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+#tasks-title {
+  color: white;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#create-task-nav {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+}
+/*# sourceMappingURL=tasks.css.map */

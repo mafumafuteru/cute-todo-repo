@@ -1,0 +1,15 @@
+"filename", "language", "HTML", "Sass", "CSS", "comment", "blank", "total"
+"/Users/leifetter/Documents/GitHub/jiawens_todolist/css/auth.css", "CSS", 0, 0, 49, 1, 8, 58
+"/Users/leifetter/Documents/GitHub/jiawens_todolist/css/auth.sass", "Sass", 0, 28, 0, 0, 6, 34
+"/Users/leifetter/Documents/GitHub/jiawens_todolist/css/main.css", "CSS", 0, 0, 86, 1, 13, 100
+"/Users/leifetter/Documents/GitHub/jiawens_todolist/css/main.sass", "Sass", 0, 54, 0, 0, 14, 68
+"/Users/leifetter/Documents/GitHub/jiawens_todolist/css/slider/slider.css", "CSS", 0, 0, 27, 1, 4, 32
+"/Users/leifetter/Documents/GitHub/jiawens_todolist/css/slider/slider.sass", "Sass", 0, 22, 0, 0, 5, 27
+"/Users/leifetter/Documents/GitHub/jiawens_todolist/css/tasks.css", "CSS", 0, 0, 65, 1, 6, 72
+"/Users/leifetter/Documents/GitHub/jiawens_todolist/css/tasks.sass", "Sass", 0, 47, 0, 0, 8, 55
+"/Users/leifetter/Documents/GitHub/jiawens_todolist/index.html", "HTML", 22, 0, 0, 0, 1, 23
+"/Users/leifetter/Documents/GitHub/jiawens_todolist/views/add_task.html", "HTML", 41, 0, 0, 0, 0, 41
+"/Users/leifetter/Documents/GitHub/jiawens_todolist/views/login.html", "HTML", 24, 0, 0, 0, 0, 24
+"/Users/leifetter/Documents/GitHub/jiawens_todolist/views/signup.html", "HTML", 25, 0, 0, 0, 0, 25
+"/Users/leifetter/Documents/GitHub/jiawens_todolist/views/view_tasks.html", "HTML", 20, 0, 0, 0, 1, 21
+"Total", "-", 132, 151, 227, 4, 66, 580

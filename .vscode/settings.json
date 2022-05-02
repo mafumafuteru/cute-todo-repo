@@ -1,0 +1,14 @@
+{
+  "liveServer.settings.port": 5501,
+  "files.exclude": {
+    "static/css/tasks.css.map": true,
+    "static/css/main.css.map": true,
+    "static/css/auth.css.map": true,
+    "static/css/navbar/navbar.css.map": true,
+    "static/css/buttons/buttons.css.map": true,
+    "static/css/slider/slider.css.map": true,
+    ".vscode": true,
+    ".VSCodeCounter": true,
+    "__pycache__": true
+  }
+}

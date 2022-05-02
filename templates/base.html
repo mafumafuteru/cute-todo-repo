@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/auth.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/navbar/navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/tasks.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/buttons/buttons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/slider/slider.css') }}">
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+    <script src="{{ url_for('static',filename='js/main.js') }}"></script>
+    {% block head %}{% endblock head %}
+</head>
+<body>
+    <div class="nav-bar">
+        <h1 class="mainLogoText">Todo</h1>
+        <a class="nav-button" id="daily-button" href="/daily">Completed</a>
+        <div class="spacer"></div>
+        <a class="nav-button" id="community-button" href="/viewAll">Task Overview</a>
+        <a class="nav-button" id="signup-button" href="/create">Create Task</a>
+    </div>
+    {% block body %}{% endblock body %}
+</body>
+</html>

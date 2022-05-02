@@ -1,0 +1,32 @@
+input[type=range] {
+  width: 400px;
+  outline: none;
+  background: transparent;
+  -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  appearance: non;
+  -webkit-appearance: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+#urgency-slider::-webkit-slider-thumb {
+  background-image: url("../../assets/images/icons8-wolf-64.png");
+}
+
+#fun-level-slider::-webkit-slider-thumb {
+  background-image: url("../../assets/images/icons8-grass-60.png");
+}
+/*# sourceMappingURL=slider.css.map */

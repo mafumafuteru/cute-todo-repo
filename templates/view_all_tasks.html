@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block head %}
+{% endblock head %}
+
+{% block body %}
+{% if not tasks %}
+<h1 class="title-text" style="margin-top: 200px;">No tasks left <br /> i suggest you create a new one.</h1>
+<div class="center">
+    <a href="/create" id="create-task-nav" class="submit-button-style-1" style=>Create Task</a>
+</div>
+{% else %}
+<h1 class="title-text" style="margin-top: 100px;">Tasks</h1>
+<table class="tasks">
+    {% for task in tasks %}
+    <tr>
+        <td></td>
+        <td><p>{{ tasks.index(task)+1 }}. {{ task.content }}</p></td>
+        <td><a href="/update/{{task.id}}" class="edit-button">
+            <img src="/static/assets/images/icons8-edit-96.png" alt="" />
+        </a></td>
+        <td><a href="/delete/{{task.id}}" class="delete-button">
+            <img src="/static/assets/images/icons8-delete-48 (1).png" alt="" />
+        </a></td>
+    </tr>
+    {% endfor %}
+</table>
+{% endif %}
+
+{% endblock body %}

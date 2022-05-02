@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block head %}
+{% endblock head %}
+
+{% block body %}
+<h1 id="auth-text">Sign up for free</h1>
+<form class="auth-form" type="POST" action="auth.html">
+    <input type="text" placeholder="Username"/><br />
+    <input type="password" placeholder="Password" /><br />
+    <input type="password" placeholder="Confirm Password" /><br />
+    <button class="auth-button">Submit</button>
+</form>
+{% endblock body %}

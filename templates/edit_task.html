@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block head %}
+{% endblock head %}
+
+{% block body %}
+<span id="tasks-title">
+    <p>Hi Jimmy, <br />what do you want to do today?</p>
+</span>
+<div class="task-center">
+    <form action="/update/{{task.id}}" method="POST">
+        <div class="input-label" style="margin-top: 50px; margin-right: 50px;">Task:</div>
+        <textarea name="content" id="content">{{ task.content }}</textarea><br />
+        <div class="input-label">Urgency:</div>
+        <input name="urgency-slider" id="urgency-slider" type="range" min="0" max="10" value="{{ task.urgency }}" />
+        <div class="slider-labels">
+            <div>0</div><div style="margin-left: 20px;">5</div><div>10</div>
+        </div>
+        <div class="input-label">Fun level:</div>
+        <input name="fun-level-slider" id="fun-level-slider" type="range" min="0" max="10" value="{{ task.fun }}" />
+        <div class="slider-labels">
+            <div>0</div><div style="margin-left: 20px;">5</div><div>10</div>
+        </div>
+        <button type="submit" value="Save Changes" class="submit-button">Update</button>
+    </form>
+</div>
+{% endblock body %}

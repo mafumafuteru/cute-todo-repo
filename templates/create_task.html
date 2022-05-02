@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block head %}
+{% endblock head %}
+
+{% block body %}
+<div class="center">
+    <span id="tasks-title">
+        <p>Hey<br />what do you want to do today?</p>
+    </span>
+</div>
+
+<div class="task-center">
+    <form action="/create" class="task-form" method="POST">
+        <div class="input-label" style="margin-top: 50px; margin-right: 50px;">Task:</div>
+        <textarea name="content" id="content"></textarea><br />
+        <div class="input-label">Urgency:</div>
+        <input name="urgency-slider" id="urgency-slider" type="range" min="0" max="10"/>
+        <div class="slider-labels">
+            <div>0</div><div style="margin-left: 20px;">5</div><div>10</div>
+        </div>
+        <div class="input-label">Fun level:</div>
+        <input name="fun-level-slider" id="fun-level-slider" type="range" min="0" max="10"/>
+        <div class="slider-labels">
+            <div>0</div><div style="margin-left: 20px;">5</div><div>10</div>
+        </div>
+        <button type="submit" value="Add Task" class="submit-button">Add</button>
+    </form>
+</div>
+{% endblock body %}
